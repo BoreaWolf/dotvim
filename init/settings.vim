@@ -48,6 +48,7 @@ set background=dark
 colorscheme elflord
 
 " Highlight characters after the 80th
+set tw=80
 set colorcolumn=80
 " (auto command because gets overwritten by colorscheme changes)
 autocmd BufRead,BufNewFile *
