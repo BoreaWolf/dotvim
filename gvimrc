@@ -16,7 +16,7 @@ if has("unix")
 		set guioptions=-L
 		set guioptions=+m
 		set background=dark
-		set lines=50 columns=160
+		set lines=50 columns=171
 	else
 		set guifont=Menlo:h12
 		set transparency=2  " Only OS X supports it :(
