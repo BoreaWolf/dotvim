@@ -47,6 +47,8 @@ Plug 'tpope/vim-surround'
 Plug 'Valloric/YouCompleteMe',
       \ { 'do': './install.sh --clang-completer --system-libclang' }
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+" Modelica highlighting
+" Plug 'BoreaWolf/vim_modelica'
 
 call plug#end()
 filetype plugin indent on
