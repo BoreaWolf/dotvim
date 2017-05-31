@@ -38,6 +38,9 @@ set shell=zsh
 " Command to clear the search highlight
 command! C let @/ = ""
 
+" Abbreviation for current date
+iabbrev xdate <c-r>=strftime('%a %d %b %Y')<cr>
+
 " Shortcuts for S&R
 noremap ;; :S///<Left><Left>
 noremap ;' :%S///g<Left><Left><Left>
