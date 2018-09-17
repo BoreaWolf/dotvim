@@ -59,4 +59,8 @@ autocmd BufRead,BufNewFile *
       \ | match OverLength /\%>100v.\+/
 
 " Mapleader
-let mapleader = "ù"
+"	" Italian keyboard layout
+"	let mapleader = "ù"
+" Irish/UK keyboard layout
+let mapleader = "ú"
+
